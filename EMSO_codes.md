@@ -11,10 +11,11 @@ This document contains human and machine-readable information to assign EMSO cod
  | Cretan Sea                | 
  | Hellenic Arc              | 
  | Iberian Margin            | 
- | Ligurian Sea              | 
+ | Western Ligurian Sea      | 
+| Eastern Ligurian Sea      |
  | Molene                    | 
  | OBSEA                     | 
  | SmartBay                  | 
  | South Adriatic Sea        | 
- | Western Ioninan           | 
+ | Western Ionian            | 
  | Western Mediterranean Sea |
