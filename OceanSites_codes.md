@@ -1,8 +1,6 @@
 # OceanSites codes #
 
-This document contains machine-readable information to assess OceanSites codes based on the document 'OceanSITES Data
-Format
-Reference Manual NetCDF Conventions and Reference Tables' Version 1.4 July 16, 2020.
+This document contains machine-readable information to assess OceanSites codes based on the document 'OceanSITES Data Format Reference Manual NetCDF Conventions and Reference Tables' Version 1.4 July 16, 2020.
 
 ### Sensor Mount ###
 
@@ -45,3 +43,12 @@ Data modes values (reference table 4: data mode).
 | P     | Provisional data  |
 | D     | Delayed-mode data |
 | M     | Mixed             |
+
+### Data Types ###
+The data_type global attribute should have one of the valid values listed here (reference table1: data_type).
+
+| Data type                   |
+|-----------------------------|
+| OceanSITES profile data     |
+| OceanSITES time-series data |
+| OceanSITES trajectory data  |
