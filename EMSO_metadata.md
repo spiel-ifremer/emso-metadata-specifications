@@ -5,9 +5,9 @@ Specifications. The format is based on the 'OceanSITES Data Format reference Man
 of [EMSO ERIC](https://emso.eu) (European Seafloor and water-column Obseratory) and its federated data service based
 on [ERDDAP](https://coastwatch.pfeg.noaa.gov/erddap/index.html).
 
-**Version**: 0.1  
+**Version**: 0.1
 **Creation Date** 2023-03-06  
-**Last modification** 2023-03-31
+**Last modification** 2023-04-05
 
 ## General conventions ##
 
@@ -64,7 +64,7 @@ tests go to Implemented tests section). The mandatory column.
 | data_mode                    | Data mode from OceanSITES table 4, possible values are "R" (real-time),<br/> "P" (provisional), "D" (delayed-mode), "M" (mixed) | oceansites_data_mode     | false    | false    |
 | title                        | Free-format text describing the dataset, for use by human readers                                                               | data_type#str            | true     | false    |
 | summary                      | Longer free-format text describing the dataset                                                                                  | data_type#str            | true     | false    |
-| keywords                     | _Please use one of ‘GCMD Science Keywords’, 'SeaDataNet Parameter Discovery <br/>Vocabulary' or 'AGU Index Terms' (ACDD)_       | data_type#str            | false    | true     |
+| keywords                     | Please use one of ‘GCMD Science Keywords’, 'SeaDataNet Parameter Discovery <br/>Vocabulary' or 'AGU Index Terms' (ACDD)         | data_type#str            | false    | true     |
 | keywords_vocabulary          | URI of the keywords vocabulary used                                                                                             | data_type#str            | false    | false    |
 | project                      | Acronyms of the projects funding the dataset                                                                                    | data_type#str            | false    | true     |
 | principal_investigator       | Name of the principal investigator                                                                                              | data_type#str            | true     | true     |
@@ -81,18 +81,18 @@ The following table contains the attributes required to be compliant with EMSO M
 |----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|----------|----------|
 | long_name            | human-readable label for the variable                                                                                                                           | data_type#str                 | true     | false    |
 | standard_name        | Standard name within the Climate & Forecast standard, listed in [P07](http://vocab.nerc.ac.uk/collection/P07)                                                   | cf_standard_name              | true     | false    |
-| units                | Variable units, should be the prefered label from a P06 definition                                                                                              | sdn_vocab_pref_label#P06      | true     | false    |
+| units                | Variable units, should be the preferred label from a P06 definition                                                                                             | sdn_vocab_pref_label#P06      | true     | false    |
 | comment              | free-text to add comments on the variable                                                                                                                       | data_type#str                 | false    | false    |
 | coordinates          | Coordinates (or dimensions) of the variable, usually "TIME; DEPTH; LATITUDE;  LONGITUDE". Add "SENSOR_ID" <br/>if multiple sensors are used within this dataset | data_type#str                 | true     | true     |
 | ancillary_variables  | Related variables, e.g. quality control flags, standard deviations, etc.                                                                                        | data_type#str                 | false    | true     |
 | _FillValue           | Fill value                                                                                                                                                      | data_type#str                 | false    | true     |
 | reference_scale      | reference scale of the variable (e.g. ITS-90 for temperature)                                                                                                   | data_type#str                 | false    | false    |
-| sdn_parameter_name   | variable name (should be the prefered label from the P01 term)                                                                                                  | sdn_vocab_pref_label#P01      | true     | false    |
+| sdn_parameter_name   | variable name (should be the preferred label from the P01 term)                                                                                                 | sdn_vocab_pref_label#P01      | true     | false    |
 | sdn_parameter_urn    | variable code (should be an identifier from P01)                                                                                                                | sdn_vocab_urn#P01             | true     | false    |
 | sdn_parameter_uri    | URI for the P01 term                                                                                                                                            | sdn_vocab_uri#P01             | false    | false    |
-| sdn_uom_name         | Variable units, should be the prefered label from a P06 definition (duplicated to ensure compatibility with SeaDataNet)                                         | data_type#str                 | true     | false    |
-| sdn_uom_urn          | Variable SeaDataNet code from P06                                                                                                                               | sdn_vocab_urn#P06             | true     | false    |
-| sdn_uom_uri          | Variable SeaDataNet code from P06                                                                                                                               | sdn_vocab_uri#P06             | false    | false    |
+| sdn_uom_name         | Variable units, should be the preferred label from a P06 definition (duplicated to ensure compatibility with SeaDataNet)                                        | data_type#str                 | true     | false    |
+| sdn_uom_urn          | Units identifier from SeaDataNet P06 vocabulary                                                                                                                 | sdn_vocab_urn#P06             | true     | false    |
+| sdn_uom_uri          | Units URI from SeaDataNet P06 vocabulary                                                                                                                        | sdn_vocab_uri#P06             | false    | false    |
 | sensor_model         | Sensor model (should be preferred label from the L22 term)                                                                                                      | data_type#str                 | true     | true     |
 | sensor_manufacturer  | Sensor model (should be preferred label from the L35 term)                                                                                                      | data_type#str                 | true     | true     |
 | sensor_reference     | sensor code (L22 identifier)                                                                                                                                    | data_type#str                 | true     | true     |
