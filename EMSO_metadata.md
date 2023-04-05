@@ -137,7 +137,7 @@ the [NERC Vocabulary Service](https://vocab.nerc.ac.uk)
   in [EDMO database](https://edmo.seadatanet.org/) (European Directory of Marine Organizations).
 * **coordinate#type**: Checks if a coordinate is correct. The 'type' argument must be one of the following: '
   latitude', 'longitude' or 'depths'
-* **emso_faciliy**: A valid name for an EMSO Regional Facility (EMSO_codes.md)
+* **emso_facility**: A valid name for an EMSO Regional Facility (EMSO_codes.md)
 * **emso_site_code**: A valid name for an EMSO Site Code.
 * **email**: valid email
 * **oceansites_sensor_orientation**: A valid value from sensor_orientation table (OceanSites_codes.md)
@@ -145,4 +145,5 @@ the [NERC Vocabulary Service](https://vocab.nerc.ac.uk)
 * **sdn_vocab_urn#vocab_id**: The parameter is a urn in a SeaDataNet vocabulary. Possible values are P01 (parameters),
   P02 (parameter codes), P06 (units), L05 (sensor types), L06 platform types) and L22 (sensor models)   P06 (units),
   L22 (devices), etc.
-* **sdn_vocab_preflabel**: Term prefered label
+* **sdn_vocab_preflabel#vocab_id**: Preferred label from a SDN vocabulary
+* **sdn_vocab_uri#vocab_id**: Resolvable URI for a SDN vocabulary Term

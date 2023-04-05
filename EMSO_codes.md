@@ -17,7 +17,7 @@ This document contains human and machine-readable information to assign EMSO cod
  | OBSEA                     | 
  | SmartBay                  | 
  | South Adriatic Sea        | 
- | Western Ionian            | 
+ | Western Ionian Sea        | 
  | Western Mediterranean Sea |
 
 
