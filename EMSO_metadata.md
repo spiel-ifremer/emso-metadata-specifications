@@ -105,12 +105,12 @@ column related to the parameter.
 
 ## Quality Control Attributes ##
 
-| QC Attributes | Description                                                                                                                   | Compliance test | Required |
-|---------------|-------------------------------------------------------------------------------------------------------------------------------|-----------------|----------|
-| long_name     | human-readable label, it is suggested to use parameter long_label and add "quality control flags" at the end                  | data_type#str   | true     |
-| conventions   | OceanSITES QC Flags                                                                                                           | data_type#str   | true     |
-| flag_values   | 0,1,2,3,4,5,6,7,8,9                                                                                                           | data_type#str   | true     |
-| flag_meanings | unknown good_data probably_good_data potentially_correctable_bad_data bad_data nominal_value interpolated_value missing_value | data_type#str   | true     |
+| QC Attributes | Description                                                                                                                   | Compliance test | Required | Multiple |
+|---------------|-------------------------------------------------------------------------------------------------------------------------------|-----------------|----------|----------|
+| long_name     | human-readable label, it is suggested to use parameter long_label and add "quality control flags" at the end                  | data_type#str   | true     | false    |
+| conventions   | OceanSITES QC Flags                                                                                                           | data_type#str   | true     | false    |
+| flag_values   | 0,1,2,3,4,5,6,7,8,9                                                                                                           | data_type#str   | true     | true     |
+| flag_meanings | unknown good_data probably_good_data potentially_correctable_bad_data bad_data nominal_value interpolated_value missing_value | data_type#str   | true     | true     |
 
 ## Controlled Vocabularies ##
 
