@@ -93,7 +93,7 @@ The following table contains the data variable attributes required to be complia
 | sdn_uom_name            | Variable units, should be the preferred label from a P06 definition                     | data_type#str                 | true     | false    |
 | sdn_uom_urn             | Units identifier from SeaDataNet P06 vocabulary                                         | sdn_vocab_urn#P06             | true     | false    |
 | sdn_uom_uri             | Units URI from SeaDataNet P06 vocabulary                                                | sdn_vocab_uri#P06             | false    | false    |
-| sensor_model            | Sensor model (L22 preferred label)                                                      | sdn_vocab_pref_label#str      | true     | true     |
+| sensor_model            | Sensor model (L22 preferred label)                                                      | sdn_vocab_pref_label#L22      | true     | true     |
 | sensor_SeaVoX_L22_code  | Sensor model (L22 identifier)                                                           | sdn_vocab_urn#L22             | true     | true     |
 | sensor_reference        | Sensor model (L22 URI)                                                                  | sdn_vocab_uri#L22             | true     | true     |
 | sensor_manufacturer     | Sensor model, L35 prefered label                                                        | sdn_vocab_pref_label#L35      | true     | true     |
@@ -115,10 +115,8 @@ The following table contains the dimension (time, latitude, longitude, depth) at
 | standard_name           | Climate and Forecast (CF) standard name (P07 vocabulary)                                | cf_standard_name         | true     | false    |
 | units                   | Variable units, should be the preferred label from a P06 definition                     | data_type#str            | true     | false    |
 | comment                 | free-text to add comments on the variable                                               | data_type#str            | false    | false    |
-| coordinates             | Variable coordinates/dimensions, usually "TIME; DEPTH; LATITUDE;  LONGITUDE; SENSOR_ID" | data_type#str            | true     | true     |
 | ancillary_variables     | Related variables, e.g. quality control flags, standard deviations, etc.                | data_type#str            | false    | true     |
 | _FillValue              | Fill value                                                                              | data_type#str            | false    | true     |
-| reference_scale         | reference scale of the variable (e.g. ITS-90 for temperature)                           | data_type#str            | false    | false    |
 | sdn_parameter_name      | variable name (should be the preferred label from the P01 term)                         | sdn_vocab_pref_label#P01 | true     | false    |
 | sdn_parameter_urn       | variable code (should be an identifier from P01)                                        | sdn_vocab_urn#P01        | true     | false    |
 | sdn_parameter_uri       | URI for the P01 term                                                                    | sdn_vocab_uri#P01        | false    | false    |
