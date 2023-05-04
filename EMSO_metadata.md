@@ -81,7 +81,7 @@ The following table contains the data variable attributes required to be complia
 |-------------------------|-----------------------------------------------------------------------------------------|-------------------------------|----------|----------|
 | long_name               | human-readable label for the variable                                                   | data_type#str                 | true     | false    |
 | standard_name           | Climate and Forecast (CF) standard name (P07 vocabulary)                                | cf_standard_name              | true     | false    |
-| units                   | Variable units, should be the preferred label from a P06 definition                     | sdn_vocab_pref_label#P06      | true     | false    |
+| units                   | Variable units, should be the preferred label from a P06 definition                     | data_type#str                 | true     | false    |
 | comment                 | free-text to add comments on the variable                                               | data_type#str                 | false    | false    |
 | coordinates             | Variable coordinates/dimensions, usually "TIME; DEPTH; LATITUDE;  LONGITUDE; SENSOR_ID" | data_type#str                 | true     | true     |
 | ancillary_variables     | Related variables, e.g. quality control flags, standard deviations, etc.                | data_type#str                 | false    | true     |
@@ -109,22 +109,22 @@ column related to the parameter.
 ## Dimension Attributes ##
 The following table contains the dimension (time, latitude, longitude, depth) attributes required to be compliant with EMSO Metadata Specification.
 
-| Variable Attributes     | Description                                                                             | Compliance test               | Required | Multiple |
-|-------------------------|-----------------------------------------------------------------------------------------|-------------------------------|----------|----------|
-| long_name               | human-readable label for the variable                                                   | data_type#str                 | true     | false    |
-| standard_name           | Climate and Forecast (CF) standard name (P07 vocabulary)                                | cf_standard_name              | true     | false    |
-| units                   | Variable units, should be the preferred label from a P06 definition                     | sdn_vocab_pref_label#P06      | true     | false    |
-| comment                 | free-text to add comments on the variable                                               | data_type#str                 | false    | false    |
-| coordinates             | Variable coordinates/dimensions, usually "TIME; DEPTH; LATITUDE;  LONGITUDE; SENSOR_ID" | data_type#str                 | true     | true     |
-| ancillary_variables     | Related variables, e.g. quality control flags, standard deviations, etc.                | data_type#str                 | false    | true     |
-| _FillValue              | Fill value                                                                              | data_type#str                 | false    | true     |
-| reference_scale         | reference scale of the variable (e.g. ITS-90 for temperature)                           | data_type#str                 | false    | false    |
-| sdn_parameter_name      | variable name (should be the preferred label from the P01 term)                         | sdn_vocab_pref_label#P01      | true     | false    |
-| sdn_parameter_urn       | variable code (should be an identifier from P01)                                        | sdn_vocab_urn#P01             | true     | false    |
-| sdn_parameter_uri       | URI for the P01 term                                                                    | sdn_vocab_uri#P01             | false    | false    |
-| sdn_uom_name            | Variable units, should be the preferred label from a P06 definition                     | data_type#str                 | true     | false    |
-| sdn_uom_urn             | Units identifier from SeaDataNet P06 vocabulary                                         | sdn_vocab_urn#P06             | true     | false    |
-| sdn_uom_uri             | Units URI from SeaDataNet P06 vocabulary                                                | sdn_vocab_uri#P06             | false    | false    |
+| Variable Attributes     | Description                                                                             | Compliance test          | Required | Multiple |
+|-------------------------|-----------------------------------------------------------------------------------------|--------------------------|----------|----------|
+| long_name               | human-readable label for the variable                                                   | data_type#str            | true     | false    |
+| standard_name           | Climate and Forecast (CF) standard name (P07 vocabulary)                                | cf_standard_name         | true     | false    |
+| units                   | Variable units, should be the preferred label from a P06 definition                     | data_type#str            | true     | false    |
+| comment                 | free-text to add comments on the variable                                               | data_type#str            | false    | false    |
+| coordinates             | Variable coordinates/dimensions, usually "TIME; DEPTH; LATITUDE;  LONGITUDE; SENSOR_ID" | data_type#str            | true     | true     |
+| ancillary_variables     | Related variables, e.g. quality control flags, standard deviations, etc.                | data_type#str            | false    | true     |
+| _FillValue              | Fill value                                                                              | data_type#str            | false    | true     |
+| reference_scale         | reference scale of the variable (e.g. ITS-90 for temperature)                           | data_type#str            | false    | false    |
+| sdn_parameter_name      | variable name (should be the preferred label from the P01 term)                         | sdn_vocab_pref_label#P01 | true     | false    |
+| sdn_parameter_urn       | variable code (should be an identifier from P01)                                        | sdn_vocab_urn#P01        | true     | false    |
+| sdn_parameter_uri       | URI for the P01 term                                                                    | sdn_vocab_uri#P01        | false    | false    |
+| sdn_uom_name            | Variable units, should be the preferred label from a P06 definition                     | data_type#str            | true     | false    |
+| sdn_uom_urn             | Units identifier from SeaDataNet P06 vocabulary                                         | sdn_vocab_urn#P06        | true     | false    |
+| sdn_uom_uri             | Units URI from SeaDataNet P06 vocabulary                                                | sdn_vocab_uri#P06        | false    | false    |
 
 
 ## Quality Control Attributes ##
