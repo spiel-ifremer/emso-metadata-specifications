@@ -27,7 +27,7 @@ This document contains the default dimension attributes expected in EMSO-complia
 | sdn_parameter_uri    | http://vocab.nerc.ac.uk/collection/P01/current/ADEPZZ01                |
 | sdn_uom_name         | meters                                                                 |
 | sdn_uom_urn          | SDN:P06::ULAA                                                          |
-| sdn_uom_uri          | http://vocab.nerc.ac.uk/collection/P01/current/ULAA                    |
+| sdn_uom_uri          | http://vocab.nerc.ac.uk/collection/P06/current/ULAA                    |
 
 ## LATITUDE ##
 
@@ -41,7 +41,7 @@ This document contains the default dimension attributes expected in EMSO-complia
 | sdn_parameter_uri    | http://vocab.nerc.ac.uk/collection/P01/current/ALATZZ01 |
 | sdn_uom_name         | Degrees north                                           |
 | sdn_uom_urn          | SDN:P06::DEGN                                           |
-| sdn_uom_uri          | http://vocab.nerc.ac.uk/collection/P01/current/ALATZZ01 |
+| sdn_uom_uri          | http://vocab.nerc.ac.uk/collection/P06/current/DEGN     |
 
 ## LONGITUDE ##
 
@@ -55,4 +55,4 @@ This document contains the default dimension attributes expected in EMSO-complia
 | sdn_parameter_uri    | http://vocab.nerc.ac.uk/collection/P01/current/ALONZZ01 |
 | sdn_uom_name         | Degrees east                                            |
 | sdn_uom_urn          | SDN:P06::DEGE                                           |
-| sdn_uom_uri          | http://vocab.nerc.ac.uk/collection/P01/current/ALONZZ01 |
+| sdn_uom_uri          | http://vocab.nerc.ac.uk/collection/P06/current/DEGE     |
