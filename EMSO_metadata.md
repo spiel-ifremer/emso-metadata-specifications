@@ -96,7 +96,7 @@ The following table contains the data variable attributes required to be complia
 | sensor_model            | Sensor model (L22 preferred label)                                                      | sdn_vocab_pref_label#L22      | true     | true     |
 | sensor_SeaVoX_L22_code  | Sensor model (L22 identifier)                                                           | sdn_vocab_urn#L22             | true     | true     |
 | sensor_reference        | Sensor model (L22 URI)                                                                  | sdn_vocab_uri#L22             | true     | true     |
-| sensor_manufacturer     | Sensor model, L35 prefered label                                                        | sdn_vocab_pref_label#L35      | true     | true     |
+| sensor_manufacturer     | Sensor model, L35 preferred label                                                       | sdn_vocab_pref_label#L35      | true     | true     |
 | sensor_manufacturer_uri | Sensor model (URI from the L35 term)                                                    | sdn_vocab_uri#L35             | true     | true     |
 | sensor_manufacturer_urn | Sensor model (should be preferred label from the L35 term)                              | sdn_vocab_urn#L35             | true     | true     |
 | sensor_serial_number    | Unique identifier for the sensor                                                        | data_type#str                 | true     | true     |
