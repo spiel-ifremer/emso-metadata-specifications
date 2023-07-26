@@ -51,7 +51,7 @@ tests go to Implemented tests section). The mandatory column.
 | geospatial_vertical_min      | Minimum depth of measurements in metres (negative for above sea level)          | coordinate#depth         | true     | false    |
 | geospatial_vertical_max      | Maximum depth of measurements in metres (negative for above sea level)          | coordinate#depth         | true     | false    |
 | time_coverage_start          | Start date of the data in UTC                                                   | data_type#datetime       | true     | false    |
-| time_coverage_end            | End date of the data in UTC                                                     | data_type#datetime       | true     | false    |
+| time_coverage_end            | End date of the data in UTC                                                     | data_type#datetime       | false    | false    |
 | update_interval              | Update interval for the file (following ISO 8601). If not applicable Use “void” | data_type#str            | true     | false    |
 | site_code                    | EMSO site code of the platform                                                  | emso_site_code           | true     | true     |
 | emso_facility                | EMSO facility name                                                              | emso_facility            | false    | true     |
