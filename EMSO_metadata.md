@@ -79,6 +79,7 @@ The following table contains the data variable attributes required to be complia
 
 | Variable Attributes     | Description                                                                             | Compliance test               | Required | Multiple |
 |-------------------------|-----------------------------------------------------------------------------------------|-------------------------------|----------|----------|
+| $name                   | Variable name is compliant with the naming rules, see 'Variable Codes' section          | check_variable_name           | true     | false    |
 | long_name               | human-readable label for the variable                                                   | data_type#str                 | true     | false    |
 | standard_name           | Climate and Forecast (CF) standard name (P07 vocabulary)                                | cf_standard_name              | true     | false    |
 | units                   | Variable units, should be the preferred label from a P06 definition                     | data_type#str                 | true     | false    |
@@ -105,6 +106,8 @@ The following table contains the data variable attributes required to be complia
 
 Although the 'ancillary_variables' term is not required, it is mandatory to set it in case there is a quality control
 column related to the parameter.
+
+The ```$name``` field refers the variable name itself instead of an attribute ```name``` from the variable metadata. 
 
 ### Variable Codes ###
 For variable codes (or variable names) it is mandatory to use OceanSITES 4-letter codes for variables, e.g. "TEMP" for temperature. If OceanSITES does not provide a definition for a certain variable, the [NVS P02](http://vocab.nerc.ac.uk/collection/P02) shall be used. If the variable is not present in OceanSITES nor in P02, then a code from [Copernicus Marine in situ TAC - physical parameters list](https://archimer.ifremer.fr/doc/00422/53381/) shall be used. If the variable is not properly described in any of the previous conventions, then a user-defined 4-letter code may be used. 
