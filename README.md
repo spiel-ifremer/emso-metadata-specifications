@@ -1,5 +1,5 @@
-# EMSO Metadata Harmonization Repository #
-This repository contains the EMSO Metadata Specifications, which define how datasets should be structured to be compliant with EMSO data policy. The specifications apply to both NetCDF files and datasets served through ERDDAP.  
+# EMSO Metadata Specifications #
+This repository contains the EMSO Metadata Specifications, which define how datasets should be structured to be compliant with EMSO's data policy. The specifications apply to both NetCDF files and datasets served through ERDDAP.  
 
 The specifications are composed by the following:
 

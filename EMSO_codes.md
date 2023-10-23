@@ -19,6 +19,7 @@ This document contains human and machine-readable information to assign EMSO cod
  | South Adriatic Sea        | 
  | Western Ionian Sea        | 
  | Western Mediterranean Sea |
+ | Nordic Seas               |
 
 
 ## EMSO Sites ##
