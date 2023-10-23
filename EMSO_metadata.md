@@ -2,12 +2,12 @@
 
 This document includes a list of all the metadata terms required for a dataset to be compliant with the EMSO Metadata
 Specifications. The format is based on the 'OceanSITES Data Format reference Manual v1.4', but adapted to the needs
-of [EMSO ERIC](https://emso.eu) (European Seafloor and water-column Obseratory) and its federated data service based
+of [EMSO ERIC](https://emso.eu) (European Seafloor and water-column Observatory) and its federated data service based
 on [ERDDAP](https://coastwatch.pfeg.noaa.gov/erddap/index.html).
 
 **Version**: 0.1
 **Creation Date** 2023-03-06  
-**Last modification** 2023-04-05
+**Last modification** 2023-10-23
 
 ## General conventions ##
 
@@ -106,6 +106,16 @@ The following table contains the data variable attributes required to be complia
 Although the 'ancillary_variables' term is not required, it is mandatory to set it in case there is a quality control
 column related to the parameter.
 
+### Variable Codes ###
+For variable codes (or variable names) it is mandatory to use OceanSITES 4-letter codes for variables, e.g. "TEMP" for temperature. If OceanSITES does not provide a definition for a certain variable, the [NVS P02](http://vocab.nerc.ac.uk/collection/P02) shall be used. If the variable is not present in OceanSITES nor in P02, then a code from [Copernicus Marine in situ TAC - physical parameters list](https://archimer.ifremer.fr/doc/00422/53381/) shall be used. If the variable is not properly described in any of the previous conventions, then a user-defined 4-letter code may be used. 
+
+The naming convention hierarchy is defined as: 
+
+1. Use OceanSITES naming conventions  
+2. If OceanSITES is not applicable, use a term from [NVS P02](http://vocab.nerc.ac.uk/collection/P02).
+3. If the parameter is not defined in P02, use the [Copernicus Marine in situ TAC - physical parameters list](https://archimer.ifremer.fr/doc/00422/53381/)
+4. If the parameter is not defined in any of the above, use any user-defined 4-letter code. 
+
 ## Dimension Attributes ##
 The following table contains the dimension (time, latitude, longitude, depth) attributes required to be compliant with EMSO Metadata Specification.
 
@@ -149,6 +159,7 @@ the [NERC Vocabulary Service](https://vocab.nerc.ac.uk)
 | L05      | sensor types                              | [L05](http://vocab.nerc.ac.uk/collection/L05)                             |
 | L06      | platform types                            | [L06](http://vocab.nerc.ac.uk/collection/L06)                             |
 | L22      | sensor models                             | [L22](http://vocab.nerc.ac.uk/collection/L22)                             |
+| L35      | sensor manufacturers                      | [L22](http://vocab.nerc.ac.uk/collection/L35)                             |
 | SPDX     | software licenses                         | [github](https://github.com/spdx/license-list-data/blob/main/licenses.md) |
 
 ## Compliance Tests ##
