@@ -43,7 +43,7 @@ tests go to Implemented tests section). The mandatory column.
 | date_created                 | Creation date                                                                   | data_type#str            | true     | false    |
 | Conventions                  | conventions used in the dataset  (e.g. OceanSITES, ACDD, etc.)                  | data_type#str            | false    | true     |
 | institution_edmo_code        | EDMO code of the creator's organization                                         | edmo_code                | true     | true     |
-| institution_edmo_uri         | URI pointint to the EDMO page de of the creator's organization                  | edmo_uri                 | true     | true     |
+| institution_edmo_uri         | URI pointing to the EDMO page de of the creator's organization                  | edmo_uri                 | true     | true     |
 | geospatial_lat_min           | The southernmost latitude, a value between -90 and 90 degrees                   | coordinate#latitude      | true     | false    |
 | geospatial_lat_max           | The northernmost latitude, a value between -90 and 90 degrees                   | coordinate#latitude      | true     | false    |
 | geospatial_lon_min           | The westernmost longitude between -180 and 180                                  | coordinate#longitude     | true     | false    |
@@ -55,9 +55,9 @@ tests go to Implemented tests section). The mandatory column.
 | update_interval              | Update interval for the file (following ISO 8601). If not applicable Use “void” | data_type#str            | true     | false    |
 | site_code                    | EMSO site code of the platform                                                  | emso_site_code           | true     | true     |
 | emso_facility                | EMSO facility name                                                              | emso_facility            | false    | true     |
-| source                       | Platform type name, should be a L06 prefered label (prefLabel)                  | sdn_vocab_pref_label#L06 | false    | false    |
+| source                       | Platform type name, should be a L06 preferred label (prefLabel)                 | sdn_vocab_pref_label#L06 | false    | false    |
 | platform_code                | OceanSITES platform code (leave blank if it does not exist)                     | data_type#str            | false    | true     |
-| wmo_platform_code            | WMO platfrom code (leave blank if it does not exist)                            | data_type#int            | false    | true     |
+| wmo_platform_code            | WMO platform code (leave blank if it does not exist)                            | data_type#int            | false    | true     |
 | data_type                    | Type of data, in most cases 'OceanSITES data time-series data'                  | oceansites_data_type     | false    | false    |
 | format_version               | OceanSITES format version                                                       | equals#1.4               | false    | false    |
 | network                      | List of the networks                                                            | data_type#str            | true     | true     |
