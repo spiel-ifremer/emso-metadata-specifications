@@ -151,7 +151,7 @@ The following table contains the dimension (time, latitude, longitude, depth) at
 
 ## Technical Variables ##
 
-Technical variables are all those variables which are not of scientific interest, such as battery voltage, internal temperature, etc. Any variable with the attribute ```techincal_data=true``` will be regarded as technical and pass the following tests instead of the generic "variable attributes":
+Technical variables are all those variables which are not of scientific interest, such as battery voltage, internal temperature, etc. Any variable with the attribute ```technical_data=true``` will be regarded as technical and pass the following tests instead of the generic "variable attributes":
 
 | Variable Attributes | Description                                           | Compliance test | Required | Multiple |
 |---------------------|-------------------------------------------------------|-----------------|----------|----------|
