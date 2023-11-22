@@ -32,7 +32,7 @@ A site is an installation within a regional facility
 | Western Ligurian Sea      | MII                   |
 | Western Ligurian Sea      | ALBATROSS             |
 | Western Ligurian Sea      | BathyBot              |
-| Ligurian Sea              | SJB                   |
+| Western Ligurian Sea      | SJB                   |
 | Eastern Ligurian Sea      | DYFAMED               |
 | Eastern Ligurian Sea      | EMSO NICE             |
 | Western Mediterranean Sea | W1M3A                 |
