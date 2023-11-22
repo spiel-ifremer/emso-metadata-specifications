@@ -31,6 +31,7 @@ A site is an installation within a regional facility
 | South Adriatic Sea        | FF                       |
 | Western Ligurian Sea      | ALBATROSS-MII (seafloor) |
 | Western Ligurian Sea      | ALBATROSS-MII (mooring)  |
+| Western Ligurian Sea      | BathyBot                 |
 | Ligurian Sea              | SJB                      |
 | Eastern Ligurian Sea      | DYFAMED                  |
 | Eastern Ligurian Sea      | EMSO NICE                |
