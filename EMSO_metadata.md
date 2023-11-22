@@ -147,6 +147,19 @@ The following table contains the dimension (time, latitude, longitude, depth) at
 | flag_values   | 0,1,2,3,4,5,6,7,8,9                                                                                                           | data_type#str   | true     | true     |
 | flag_meanings | unknown good_data probably_good_data potentially_correctable_bad_data bad_data nominal_value interpolated_value missing_value | data_type#str   | true     | true     |
 
+
+
+## Technical Variables ##
+
+Technical variables are all those variables which are not of scientific interest, such as battery voltage, internal temperature, etc. Any variable with the attribute ```techincal_data=true``` will be regarded as technical and pass the following tests instead of the generic "variable attributes":
+
+| Variable Attributes | Description                                           | Compliance test | Required | Multiple |
+|---------------------|-------------------------------------------------------|-----------------|----------|----------|
+| technical_data      | attribute flagging current variable as technical data | equals#true     | true     | false    |
+| comment             | free-text field describing what is being measured     | data_type#str   | true     | false    |
+| units               | Variable units as free text                           | data_type#str   | true     | false    |
+
+
 ## Controlled Vocabularies ##
 
 This metadata standard makes use of several controlled vocabularies from
