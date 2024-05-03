@@ -5,9 +5,9 @@ Specifications. The format is based on the 'OceanSITES Data Format reference Man
 of [EMSO ERIC](https://emso.eu) (European Seafloor and water-column Observatory) and its federated data service based
 on [ERDDAP](https://coastwatch.pfeg.noaa.gov/erddap/index.html).
 
-**Version**: 0.3  
+**Version**: 0.4.1  
 **Creation Date** 2023-03-06    
-**Last modification** 2023-10-23  
+**Last modification** 2024-05-03  
 
 ## General conventions ##
 
