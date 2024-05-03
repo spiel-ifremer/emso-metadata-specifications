@@ -1,6 +1,7 @@
 # EMSO Codes #
 
-This document contains human and machine-readable information to assign EMSO codes.
+This document contains human and machine-readable information to assign EMSO codes. The "None" value is reserved for
+those datasets that follow the EMSO Metadata Specifications but are not yet part of EMSO ERIC.
 
 # EMSO Regional Facilities #
  | EMSO Regional Facilities  |  
@@ -20,6 +21,7 @@ This document contains human and machine-readable information to assign EMSO cod
  | Western Ionian Sea        | 
  | Western Mediterranean Sea |
  | Nordic Seas               |
+ | None                      |
 
 
 ## EMSO Sites ##
@@ -48,3 +50,4 @@ A site is an installation within a regional facility
 | Azores                    | BOREL2                |
 | Azores                    | SeaMoN West           |
 | Azores                    | SeaMoN East           |
+| None                      | None                  |
