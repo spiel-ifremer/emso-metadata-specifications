@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/670238977.svg)](https://zenodo.org/doi/10.5281/zenodo.10669878)
 
 
-# EMSO Metadata Specifications #
+# EMSO ERIC Metadata Specifications #
 This repository contains the EMSO Metadata Specifications, which define how datasets should be structured to be compliant with EMSO's data policy. The specifications apply to both NetCDF files and datasets served through ERDDAP.  
 
 The specifications are composed by the following:
@@ -15,7 +15,8 @@ The specifications are composed by the following:
  
 
 ### Contact info ###
-* **author** Enoc Martínez  
+* **version**: v0.4.1
+* **author**: Enoc Martínez  
 * **contributors**: Enoc Martínez 
 * **organization**: Universitat Politècnica de Catalunya (UPC)
 * **contact**: enoc.martinez@upc.edu
