@@ -7,7 +7,7 @@ those datasets that follow the EMSO Metadata Specifications but are not yet part
  | EMSO Regional Facilities  |  
  |---------------------------|
  | Azores                    | 
- | BLack Sea                 | 
+ | Black Sea                 | 
  | Canary Islands            | 
  | Cretan Sea                | 
  | Hellenic Arc              | 
