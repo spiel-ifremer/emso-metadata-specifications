@@ -50,4 +50,5 @@ A site is an installation within a regional facility
 | Azores                    | BOREL2                |
 | Azores                    | SeaMoN West           |
 | Azores                    | SeaMoN East           |
+| Black Sea                 | BS                    |
 | None                      | None                  |
