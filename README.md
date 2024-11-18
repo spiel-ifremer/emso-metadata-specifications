@@ -15,7 +15,7 @@ The specifications are composed by the following:
  
 
 ### Contact info ###
-* **version**: v0.4.1
+* **version**: v0.4.2
 * **author**: Enoc Martínez  
 * **contributors**: Enoc Martínez 
 * **organization**: Universitat Politècnica de Catalunya (UPC)
