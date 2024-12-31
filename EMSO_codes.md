@@ -93,7 +93,7 @@ A platform is connected to an EMSO Site.
 | Ligurian Sea              | Lion                  | Lion mooring          | EMSO certification in progress                               |
 | Ligurian Sea              | LO                    | ALBATROSS             |                                                              |
 | Ligurian Sea              | LO                    | MII                   |                                                              |
-| Ligurian Sea              | LO                    | BJS                   | comprises several sub-platforms: BJS BathyDock, BJS BathyBot |
+| Ligurian Sea              | LO                    | BJS_BathyFamily       | comprises several sub-platforms: BJS BathyDock, BJS BathyBot |
 | Ligurian Sea              | Nice                  | East station          |                                                              |
 | Ligurian Sea              | Nice                  | West station          |                                                              |
 | Nordic Seas               | Fram Strait           |                       | To be completed                                              |
