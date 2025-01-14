@@ -2,7 +2,7 @@
 This document contains human and machine-readable information to assign EMSO vocabularies (in alphabetical order). It is regularly checked and validated by the EMSO ERIC Data Management Service Group.
 
 # EMSO Regional Facilities #
-An EMSO Regional Facility corresponds to an EMSO observatory in which one or more sites are located.
+An EMSO Regional Facility is composed of the an Observatory infrastructure, instrumentation and hardware, and other resources and services in a particular region.
 
  | EMSO Regional Facilities  | Comments                                                                    |
  |---------------------------|-----------------------------------------------------------------------------|
@@ -12,7 +12,7 @@ An EMSO Regional Facility corresponds to an EMSO observatory in which one or mor
  | Cretan Sea                |                                                                             |
  | Hellenic Arc              |                                                                             |
  | Iberian Margin            |                                                                             |
- | Morlenn                   | proposed new name (proposed at the end of 2024 and still to be validated)   |
+ | Iroise                    | proposed new name (proposed at the end of 2024 and still to be validated)   |
  | Ligurian Sea              |                                                                             |
  | Nordic Seas               |                                                                             |
  | OBSEA                     |                                                                             |
@@ -22,10 +22,10 @@ An EMSO Regional Facility corresponds to an EMSO observatory in which one or mor
  | Western Ionian Sea        |                                                                             |
  | Western Mediterranean     |                                                                             |
 
-## EMSO Sites ##
-An EMSO site is an installation within a Regional Facility.
+## EMSO Site Facilities ##
+An EMSO site facility is a set of dedicated and interacting equipment, on shore or at sea, necessary to support the operation of one or several Observing Units. A Site Facility may comprise a shore station, one or several subsea cables, Junction Boxes and includes the Observing Units.
 
-| EMSO Regional Facility    | EMSO Site             | Comments |
+| EMSO Regional Facility    | EMSO Site Facility    | Comments |
 |---------------------------|-----------------------| ---------------------------------------------------------------------------------------------------------------------------------------------------|
 | Azores                    | AISICS                |                                                                                                                                                    |
 | Azores                    | Lava Lake             |                                                                                                                                                    |
@@ -39,8 +39,8 @@ An EMSO site is an installation within a Regional Facility.
 | Hellenic Arc              | PYLOS                 |                                                                                                                                                    |
 | Iberian Margin            | IbMa-CSV              |                                                                                                                                                    |
 | Iberian Margin            | GEOSTAR               |                                                                                                                                                    |
-| Morlenn                   | Molène                |                                                                                                                                                    |
-| Morlenn                   | rade de Brest         |                                                                                                                                                    |
+| Iroise                    | Molène                |                                                                                                                                                    |
+| Iroise                    | rade de Brest         |                                                                                                                                                    |
 | Ligurian Sea              | DYFAMED               |                                                                                                                                                    |
 | Ligurian Sea              | Lion                  | EMSO certification in progress                                                                                                                     |
 | Ligurian Sea              | LO                    |                                                                                                                                                    |
@@ -64,7 +64,7 @@ An EMSO site is an installation within a Regional Facility.
 | Western Mediterranean Sea | W1M3A                 |                                                                                                                                                    |
 
 ## EMSO Platforms ##
-A platform is connected to an EMSO Site.
+A platform (also named Observing Unit) is a marine subset of a Site Facility on which instruments and/or sensors are directly plugged. An Observing Unit may be a seabed station, a mooring, a surface buoy. It includes the Sensors/Instruments attached to it.
 
 | EMSO Regional Facility    | EMSO Site             | EMSO Platform         | Comments                                                     |
 |---------------------------|-----------------------|-----------------------|--------------------------------------------------------------|
@@ -74,6 +74,7 @@ A platform is connected to an EMSO Site.
 | Azores                    | Lucky Strike          | Hydrographic mooring  |                                                              |
 | Azores                    | Lucky Strike          | EGIM                  |                                                              |
 | Azores                    | Lucky Strike          | SeaMoN East           |                                                              |
+| Azores                    | Lucky Strike          | ROV                   |                                                              |
 | Azores                    | Surface               | BOREL                 |                                                              |
 | Black Sea                 | EuxRo01               |                       | To be completed                                              |
 | Black Sea                 | EuxRo02               |                       | To be completed                                              |
@@ -85,8 +86,8 @@ A platform is connected to an EMSO Site.
 | Hellenic Arc              | PYLOS                 |                       | To be completed                                              |
 | Iberian Margin            | IbMa-CSV              |                       | To be completed                                              |
 | Iberian Margin            | GEOSTAR               |                       | To be completed                                              |
-| Morlenn                   | Molène                | Submarine platform    |                                                              |
-| Morlenn                   | rade de Brest         | Seabed station        |                                                              |
+| Iroise                    | Molène                | Submarine platform    |                                                              |
+| Iroise                    | rade de Brest         | Seabed station        |                                                              |
 | Ligurian Sea              | DYFAMED               | Buoy ODAS             |                                                              |
 | Ligurian Sea              | DYFAMED               | Dyfamed mooring       |                                                              |
 | Ligurian Sea              | DYFAMED               | Mugobs                |                                                              |
